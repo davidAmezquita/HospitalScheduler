@@ -7,14 +7,13 @@ import java.util.ArrayList;
 public class Model {
 
     private Connection conn = null;
-    private String url = "jdbc:mysql://localhost:3306/uihealth_480";
-
+    private String url = "***";
     Model(){
     }
 
     public void initConnection() {
         try {
-            conn = DriverManager.getConnection(url, "root", "DbzSuper2!");
+            conn = DriverManager.getConnection(url, "***", "****!");
         }catch (SQLException e)
         {
             System.out.println("connection failed");
